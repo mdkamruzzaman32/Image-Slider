@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css end  */
+
+/* slider css start  */
+.slider{
+    margin-top: 50px;
+}
+.slider_imgone{
+    background: url(../images/sliderImage\(1\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgTwo{
+    background: url(../images/sliderImage\(2\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgThree{
+    background: url(../images/sliderImage\(3\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgFour{
+    background: url(../images/sliderImage\(4\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgFive{
+    background: url(../images/sliderImage\(5\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgsix{
+    background: url(../images/sliderImage\(6\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgseven{
+    background: url(../images/sliderImage\(7\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgeight{
+    background: url(../images/sliderImage\(8\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+.slider_imgnine{
+    background: url(../images/sliderImage\(9\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 650px;
+}
+
+.prev {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.prev:hover{
+    color: #22fb05;
+}
+.next{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.next:hover{
+    color: #22fb05;
+}
+
+.slick-dots{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li{
+    padding: 20px 10px;
+}
+.slick-dots button {
+    display: block;
+    width: 7px;
+    height: 7px;
+    padding: 0;   
+    border: none;
+    border-radius: 50%;
+    background-color: #444;
+    text-indent: -9999px;
+}
+li.slick-active button {
+    background-color: black;
+}
+/* slider css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== project  part start ===== */
+#Projectpart {
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+}
+
+.projecttxt h1 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.projecttxt h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: "Paprika", sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 269px;
+    /* border-radius: 15px;
+    border: 1px solid #fff;
+    width: 315px; */
+}
+
+
+.projectslider picture img {
+    width: 770px;
+    height: 520px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.projectslidertwo picture img {
+    width: 770px;
+    height: 420px;
+    border-radius: 20px;
+    position: absolute;
+    left: 17%;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+.projectsliderthre picture img {
+    width: 770px;
+    height: 420px;
+    border-radius: 20px;
+    position: absolute;
+    left: 33%;
+    z-index: 2;
+    /* top: 50px; */
+    margin-top: 50px;
+}
+
+.projectsliderfour picture img {
+    width: 770px;
+    height: 320px;
+    border-radius: 20px;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.projectsliderfive picture img {
+    width: 770px;
+    height: 320px;
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+    /* top: 100px; */
+    margin-top: 100px;
+}
+
+/* =====   part end ===== */

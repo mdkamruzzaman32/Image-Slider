@@ -1,0 +1,160 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #header{
+        width: 55%;
+        background: none;
+    }
+    .navbar-toggler {
+    
+        /* color: #0deb32; */
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000 ;
+    }
+    .navbar-nav{
+        align-items: center;
+        background: #0f183e;
+    }
+    .mynavbattans {
+        margin-top: 30px;
+        margin-left: 155px;
+    }
+
+    .leftsidebar {
+        position: fixed;
+        height: 100%;
+        /* z-index: 1; */
+        margin-left: -50px;
+    }
+    .uplineimg img {
+        height: 160px;
+        position: absolute;
+        /* margin-left: 69px;
+        margin-top: 439px; */
+    }
+
+    .laptopimg picture img {
+        visibility: hidden;
+    }
+
+    .divX {
+        position: absolute;
+        top: -190px;
+        left: 400px;
+    }
+    .divcircle {
+        top: -71px;
+        left: 508px;
+    }
+    .vivacotxt {
+        
+        left: 322px;
+    }
+    .circle {
+        
+        margin-left: 280px;
+    }
+
+    .rightsiteparttxt{
+        margin-top: 60px;
+    }
+
+    .experienceitem{
+        margin-left: -40px;
+    }
+
+    .serviceclinettitle h2 {
+        
+        padding: 10px 50px;
+    }
+    .projecttxt h2{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .skill_middleline {
+        visibility: hidden;
+    }
+    .threedspare span {
+        top: 900px;
+    }
+    .threedspare picture img {
+        width: 563px;
+        margin-top: -251px;
+    }
+    .rightsimg {
+        top: -50px;
+    }
+    .testimonialltitle h2 {
+        padding: 40px 0px;
+    }
+
+    .testmonialtxt {
+        padding: 0;
+    }
+
+    .myvlogtitle h1 {
+        padding: 0;
+    }
+    .vlogimg {
+        flex-wrap: wrap;
+    }
+    .vlogimgone {
+        width: 550px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .vlogimgone img{
+       width: 100%;
+    }
+    .inputarea span {
+        margin-left: 0;
+    }
+    .flower img {
+        visibility: hidden;
+    }
+    #contact h2 {
+        font-family: "DM Sans", serif;
+        color: #ffffff;
+        font-size: 80px;
+        line-height: 100px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin: 0;
+    }
+    #contact .img img {
+        left: 357px !important;
+    }
+    #footer h2 {
+        font-size: 73px;
+        line-height: 85px;
+        padding: 0;
+
+    }
+    .writemsg{
+        margin-top: 140px;
+    }
+    .behance::after {
+        width: 540px;
+        
+    }
+    .dribbble::after{
+        width: 540px;
+    }
+    .instagram::after{
+        width: 540px;
+    }
+ }
+
+
